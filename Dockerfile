@@ -5,4 +5,4 @@ WORKDIR /DevOps
 
 COPY target/spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar
 
-ENTRYPOINT ["java","-jar","spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","spring-boot-jpa-h2-0.0.1-SNAPSHOT.jar"]

@@ -2,6 +2,7 @@ pipeline {
 
     agent any
     environment {
+        SONAR_CREDENTIALS = credentials('433df826-ffaa-4cda-b2ba-f0bc2dcbaffe')
 
         }
 

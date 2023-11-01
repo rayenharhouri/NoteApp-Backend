@@ -46,15 +46,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<!--
+
 	<distributionManagement>
 		<repository>
 			<id>deployementRepo</id>
 			<name>NoteApp-Backend</name>
 			<url>http://192.168.33.10:8081/repository/NoteApp-Backend/</url>
 		</repository>
-	</distribuationManagement>
-	-->
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>

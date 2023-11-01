@@ -1,6 +1,9 @@
 pipeline {
 
     agent any
+    environment {
+
+        }
 
     stages {
 
@@ -14,5 +17,6 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
+
     }
  }
